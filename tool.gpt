@@ -1,0 +1,7 @@
+name: os-notifier
+description: Send a notification to the user
+args: message: the message to send to the user
+args: title: the title of the message
+tools: sys.exec?
+
+#!node ${GPTSCRIPT_TOOL_DIR}/notifier.js
